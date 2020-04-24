@@ -79,7 +79,7 @@ sudo ./flanneld --etcd-endpoints=http://127.0.0.1:2379
 ```
 
 然后创建一个同样的实例并且连接。
-运行 flannel 时候制定 `--etcd-endpoints` 来制定使用的ETCD。
+运行 flannel 时候指定 `--etcd-endpoints` 来指定使用的ETCD。
 
 确认创建的每一个子网都在路由表上有相应的记录。
 
